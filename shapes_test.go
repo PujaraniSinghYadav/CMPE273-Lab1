@@ -27,13 +27,4 @@ func TestShapes(t *testing.T) {
 	check(t, calc_perimeter(c), 62.83185307179586)
 	check(t, calc_perimeter(r), 400)
 
-	c1 := Circle{10, 10, 100}
-	fmt.Println("c1.area = ", c1.area())
-	r1 := Rectangle{100, 100, 200, 100}
-	fmt.Println("r1.area = ", r1.area())
-
-	c2 := Circle{10, 10, 100}
-	fmt.Println("c2.perimeter = ", c2.perimeter())
-	r2 := Rectangle{100, 100, 200, 100}
-	fmt.Println("r2.perimeter = ", r2.perimeter())
 }
